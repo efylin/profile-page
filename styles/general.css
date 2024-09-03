@@ -1,0 +1,34 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 60px;
+    height: auto;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --cream: #eeebe3;
+    --pink: #f5c2c2;
+    --purple: #b2a6d9;
+    --navy: #2d2c38;
+    --green: #708c82;
+    --dark-pink: #9890f5;
+    --dark-purple: #d86072;
+}
+
+.dark-theme {
+    --cream: #262628;
+    --pink: #9890f5;
+    --purple: #d86072;
+    --navy: #eeebe3;
+    --green: #d6dc82;
+}
+
+body {
+    background-color: var(--cream);
+    font-family: "poppins";
+}
+

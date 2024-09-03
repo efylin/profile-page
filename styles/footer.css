@@ -1,0 +1,77 @@
+.footer {
+    background-color: var(--pink);
+    height: auto;
+    position: relative;
+    bottom: 0px;
+}
+
+.footer-text {
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.animated-container  {
+    display: inline-block;
+    overflow: visible;
+}
+
+.animated-text {
+    color: var(--navy);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 23px;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 3s steps(30) infinite;
+    height: auto;
+}
+
+@keyframes typing {
+    from {width: 0;}
+    to {width: 100%;}
+}
+
+.about-webpage {
+    font-size: 15px;
+    color: var(--navy);
+    padding-top: 5px;
+    height: auto;
+}
+
+.link-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.empty-link {
+    width: 1fr;
+}
+
+.links {
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    height: auto;
+}
+
+.spotify:hover {
+    opacity: 0.5;
+}
+
+.github:hover {
+    opacity: 0.5;
+}
+
+.facebook:hover {
+    opacity: 0.5;
+}

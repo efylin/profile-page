@@ -1,0 +1,55 @@
+.page-title {
+    margin-top: 60px;
+    height: auto;
+    font-style: italic;
+    font-size: 125px;
+    font-weight: 600;
+    padding-left: 50px;
+    padding-top: 63px;
+    padding-bottom: 63px;
+    border-style: solid;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    display: grid;
+    grid-template-columns: 1.9fr 1fr;
+}
+
+.welcome {
+    color: var(--navy);
+}
+
+.ps {
+    color: var(--navy);
+    font-size: 20px;
+}
+
+.heart {
+    font-size: 300px;
+    padding-top: 150px;
+    color: var(--navy);
+}
+
+@media (max-width: 1072px) and (min-width: 729px) {
+    .page-title {
+        grid-template-columns: 1fr;
+        padding-bottom: 10px;
+    }
+    .heart {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+@media (max-width: 728px) {
+    .page-title {
+        font-size: 80px;
+        grid-template-columns: 1fr;
+        padding-bottom: 10px;
+    }
+    .heart {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 150px;
+    }
+}
